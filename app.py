@@ -4,6 +4,10 @@
 Requires customtkinter and cipher.py in the same directory.
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import tkinter as tk
 from tkinter import messagebox
 import customtkinter as ctk
